@@ -1,0 +1,22 @@
+discord:
+  token: "YOUR_DISCORD_BOT_TOKEN"
+  # 留空為全域指令（需等數小時生效），填入 Guild ID 為測試伺服器專用指令（即時生效）
+  guild_id: ""
+  application_id: "YOUR_APPLICATION_ID"
+
+ai:
+  provider: "gemini" # 切換 AI provider：gemini | groq
+
+gemini:
+  api_key: "YOUR_GEMINI_API_KEY"
+  model: "gemini-2.5-flash-lite"
+
+groq:
+  api_key: "YOUR_GROQ_API_KEY"
+  model: "qwen/qwen3-32b"
+
+database:
+  path: "bot.db" # SQLite 資料庫檔案路徑
+
+log:
+  level: "info" # debug | info | warn | error

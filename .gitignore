@@ -1,0 +1,17 @@
+# Binary
+cee_bot
+cee_bot.exe
+/bin/
+/tmp/
+
+# Config with secrets
+config/config.yaml
+
+# Go build cache
+*.test
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+*.db
